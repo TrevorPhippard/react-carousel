@@ -7,16 +7,16 @@
 
   --blazy:rgb(243, 132, 40);
 }
-.card{
+.crumbCont,
+.btnCont{
+  max-width: 400px;
+  margin:30px auto
+}
+
+.slide, img {
+  width: 100%;
   max-width: 400px;
 }
-
-
-.slide {
-  width: 100%;
-}
-
-img{width: 100%;}
 
 .btnCont{
   display: flex;

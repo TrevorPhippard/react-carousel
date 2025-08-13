@@ -55,7 +55,14 @@ export default function Carousel() {
       </div>
       <ul className="crumbCont">
         {images.map((_x, i) => {
-          return <li key={`crumb_${i}`} onClick={() => handleCrumbClick(i)} />;
+          return (
+            <li
+              tabIndex={0}
+              role="button"
+              key={`crumb_${i}`}
+              onClick={() => handleCrumbClick(i)}
+            />
+          );
         })}
       </ul>
     </>
